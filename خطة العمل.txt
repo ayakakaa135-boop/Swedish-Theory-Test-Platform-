@@ -1,0 +1,62 @@
+venv\Scripts\activate
+frontend/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── LoadingSpinner.jsx
+│   │   ├── ErrorMessage.jsx
+│   │   ├── Timer.jsx
+│   │   ├── ProgressBar.jsx
+│   │   └── QuestionCard.jsx
+│   ├── pages/
+│   │   ├── HomePage.jsx
+│   │   ├── SectionsPage.jsx
+│   │   ├── TestPage.jsx
+│   │   └── ResultsPage.jsx
+│   ├── contexts/
+│   │   └── TestContext.js
+│   ├── services/
+│   │   └── api.js
+│   ├── i18n/
+│   │   └── config.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── .env
+├── .gitignore
+├── package.json
+└── tailwind.config.js
+
+------------------------------------------------------------------------------
+# هيكل المجلدات النهائي:
+backend/
+├── manage.py
+├── requirements.txt
+├── .env
+├── import_questions.py
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── api/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   └── urls.py
+└── data/
+    └── 1.json  # ملف الأسئلة الخاص بك
+
+
+
+
+
+
+
+
