@@ -6,23 +6,23 @@
 ## 📸 Interface Preview
 | Dashboard Overview | Practice Categories | Examination Mode |
 | :---: | :---: | :---: |
-| ![Home](home.jpeg) | ![Sections](seccion.jpeg) | ![Test](test.jpeg) |
+| ![Home](photo/home.jpeg) | ![Sections](photo/seccion.jpeg) | ![Test](photo/test.jpeg) |
 
 ---
 
 ## 🚀 Tech Stack
 
 ### Backend (Django 5.0)
-* [cite_start]**Framework**: Django 5.0 with Django REST Framework (DRF).
-* [cite_start]**Database**: PostgreSQL support via `psycopg2-binary`.
-* [cite_start]**Environment**: Secure configuration using `python-decouple`.
-* [cite_start]**CORS**: Configured with `django-cors-headers` for frontend communication.
+* **Framework**: Django 5.0 with Django REST Framework (DRF).
+***Database**: PostgreSQL support via `psycopg2-binary`.
+* **Environment**: Secure configuration using `python-decouple`.
+* **CORS**: Configured with `django-cors-headers` for frontend communication.
 
 ### Frontend (React + Vite)
 * **Framework**: React.js powered by **Vite** for optimized performance.
 * **Styling**: Tailwind CSS for a responsive and modern UI.
-* [cite_start]**State Management**: React Context API via `TestContext.js`.
-* [cite_start]**I18n**: Built-in multi-language configuration.
+* **State Management**: React Context API via `TestContext.js`.
+* **I18n**: Built-in multi-language configuration.
 
 ---
 
